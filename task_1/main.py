@@ -15,7 +15,7 @@ if __name__ == '__main__':
     shoe_view.display_price()
     shoe_view.display_manufacture()
     shoe_view.display_size()
-    shoe_view.display_shoe_inform()
+    print(shoe_view.display_shoe_inform())
     print()
 
     shoe_model = ShoeModel("Женские","Туфли","Красный","15000","Gucci","36")
@@ -30,5 +30,5 @@ if __name__ == '__main__':
     shoe_view.display_price()
     shoe_view.display_manufacture()
     shoe_view.display_size()
-    shoe_view.display_shoe_inform()
+    print(shoe_view.display_shoe_inform())
     print()
